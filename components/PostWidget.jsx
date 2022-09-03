@@ -28,8 +28,8 @@ function PostWidget({ categories, slug }) {
             <Image
               alt={post.title}
               unoptimized
-              height="70px"
-              width="70px"
+              height="40px"
+              width="40px"
               className="align-middle rounded-full"
               src={post.featuredImage.url}
             />
